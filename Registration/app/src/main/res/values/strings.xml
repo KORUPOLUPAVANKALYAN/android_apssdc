@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="edit_name">Enter Name</string>
+    <string name="edit_email">Enter Email</string>
+    <string name="edit_phone">Enter Phone Number</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="check_java">Java</string>
+    <string name="check_data">Data Structures</string>
+
+    <string-array name="data">
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>IT</item>
+        <item>EEE</item>
+    </string-array>
+    <string name="textview_text">
+        huihfwrekfgrghuhfukrhkhg pavankorupolu05@gmali.com hhhgrghr
+        bhgrbg 7993588396 hggheaheb wwww.google.com fvfhbjhvfvhfv
+        <b>iydhbfhjsdbfhbfhdvvfsdbsvffdsvvfdsvjfsjvhfsvhjvfhjvfsjv
+
+        jhbfdsjnjdsnjksd
+        jhbhbhdbhbsd
+        hbhdfbdnfjndfjn
+        </b>
+
+        bdbfjdsbfsd
+        hjbdfdhbfhdhbdb
+        hgjhrfbhdsbhdsb
+        hybehfbhdbfhdsfds
+        jhbhjdbhfbdhsfbhsd
+        gghfhfbhfdbb
+        hjbhjbhdfbghfbn
+        hjbdfdhbfhdhbdb
+        hgjhrfbhdsbhdsb
+        hybehfbhdbfhdsfds
+        jhbhjdbhfbdhsfbhsd
+        gghfhfbhfdbb
+        hjbhjbhdfbghfbn
+        gjbhdbfhbhfbhbf
+        jhbfhbh
+        hdbfhbhd
+        jhbhfbjhfbh
+        dhbfhdbfhd
+        gvbfbhh iuhjbfhdbfdsj
+        jhbdbhfbdbfjdsbfsd
+        hjbdfdhbfhdhbdb
+        hgjhrfbhdsbhdsb
+        hybehfbhdbfhdsfds
+        jhbhjdbhfbdhsfbhsd
+        gghfhfbhfdbb
+        hjbhjbhdfbghfbn
+        gjbhdbfhbhfbhbf
+        jhbfhbh
+        hdbfhbhd
+        jhbhfbjhfbh
+        dhbfhdbfhd
+        gvbfbhh iuhjbfhdbfdsj
+        jhbdbhfbdbfjdsbfsd
+        hjbdfdhbfhdhbdb
+        hgjhrfbhdsbhdsb
+        hybehfbhdbfhdsfds
+        jhbhjdbhfbdhsfbhsd
+        gghfhfbhfdbb
+        hjbhjbhdfbghfbn
+        gjbhdbfhbhfbhbf
+        jhbfhbh
+        hdbfhbhd
+        jhbhfbjhfbh
+        dhbfhdbfhd
+        gvbfbhh iuhjbfhdbfdsj
+        jhbdbhfbdbfjdsbfsd
+        hjbdfdhbfhdhbdb
+        hgjhrfbhdsbhdsb
+        hybehfbhdbfhdsfds
+        jhbhjdbhfbdhsfbhsd
+        gghfhfbhfdbb
+        hjbhjbhdfbghfbn
+        gjbhdbfhbhfbhbf
+        jhbfhbh
+        hdbfhbhd
+        jhbhfbjhfbh
+        dhbfhdbfhd
+        gvbfbhh iuhjbfhdbfdsj
+        jhbdbhfbdbfjdsbfsd
+
+
+    </string>
+</resources>

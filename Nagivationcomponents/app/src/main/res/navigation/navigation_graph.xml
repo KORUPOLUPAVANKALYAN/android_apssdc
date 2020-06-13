@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="svlevents.pavan.android.nagivationcomponents.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_blueFragment"
+            app:destination="@id/blueFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_greenFragment"
+            app:destination="@id/greenFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_seconActivity"
+            app:destination="@id/seconActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_redFragments2"
+            app:destination="@id/redFragments2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blueFragment"
+        android:name="svlevents.pavan.android.nagivationcomponents.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/greenFragment"
+        android:name="svlevents.pavan.android.nagivationcomponents.GreenFragment"
+        android:label="fragment_green"
+        tools:layout="@layout/fragment_green" />
+    <activity
+        android:id="@+id/seconActivity"
+        android:name="svlevents.pavan.android.nagivationcomponents.SeconActivity"
+        android:label="activity_secon"
+        tools:layout="@layout/activity_secon" />
+    <fragment
+        android:id="@+id/redFragments2"
+        android:name="svlevents.pavan.android.nagivationcomponents.RedFragments"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red" />
+</navigation>

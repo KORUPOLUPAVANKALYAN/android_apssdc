@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="@string/edit_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_number"
+        android:inputType="phone"
+        android:hint="@string/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/r_male"
+            android:hint="@string/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/r_female"
+            android:hint="@string/radio_female"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/c_java"
+        android:hint="@string/check_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/c_python"
+        android:hint="@string/check_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/c_datastructures"
+        android:hint="@string/check_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_view"
+            android:autoLink="all"
+            android:text="@string/textview_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textSize="30dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</ScrollView>

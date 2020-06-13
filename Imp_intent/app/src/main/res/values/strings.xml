@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Imp_intent</string>
+    <string name="ettext">Enter some text</string>
+    <string name="dailer">Dailer</string>
+    <string name="share">Share</string>
+    <string name="whatsapp">Whatsapp</string>
+</resources>
